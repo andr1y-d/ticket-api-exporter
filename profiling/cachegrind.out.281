@@ -1,0 +1,2246 @@
+version: 1
+creator: xdebug 3.1.6 (PHP 7.4.33)
+cmd: Standard input code
+part: 1
+positions: line
+
+events: Time_(10ns) Memory_(bytes)
+
+fl=(1) php:internal
+fn=(1) php::ini_set
+23 504 376
+
+fl=(1)
+fn=(2) php::extension_loaded
+25 171 0
+
+fl=(1)
+fn=(3) php::define
+42 93 24
+
+fl=(2) Standard input code
+fn=(4) setupEnvironment
+21 3019 0
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+23 504 376
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+25 171 0
+cfl=(1)
+cfn=(3)
+calls=1 0 0
+42 93 24
+
+fl=(1)
+fn=(5) php::in_array
+148 67 0
+
+fl=(1)
+fn=(5)
+150 10 0
+
+fl=(1)
+fn=(6) php::getenv
+164 144 0
+
+fl=(2)
+fn=(7) outputSupportsColor
+162 236 0
+cfl=(1)
+cfn=(6)
+calls=1 0 0
+164 144 0
+
+fl=(1)
+fn=(3)
+153 27 24
+
+fl=(2)
+fn=(8) setUseAnsi
+145 567 0
+cfl=(1)
+cfn=(5)
+calls=1 0 0
+148 67 0
+cfl=(1)
+cfn=(5)
+calls=1 0 0
+150 10 0
+cfl=(2)
+cfn=(7)
+calls=1 0 0
+153 380 0
+cfl=(1)
+cfn=(3)
+calls=1 0 0
+153 27 24
+
+fl=(1)
+fn=(5)
+53 15 0
+
+fl=(1)
+fn=(5)
+53 9 0
+
+fl=(1)
+fn=(5)
+59 10 0
+
+fl=(1)
+fn=(5)
+60 15 0
+
+fl=(1)
+fn=(5)
+61 9 0
+
+fl=(1)
+fn=(5)
+63 11 0
+
+fl=(1)
+fn=(5)
+65 9 0
+
+fl=(1)
+fn=(5)
+67 9 0
+
+fl=(1)
+fn=(5)
+69 9 0
+
+fl=(1)
+fn=(5)
+71 9 0
+
+fl=(1)
+fn=(5)
+74 9 0
+
+fl=(1)
+fn=(9) php::strpos
+208 48 0
+
+fl=(2)
+fn=(10) getOptValue
+202 299 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+208 48 0
+
+fl=(1)
+fn=(9)
+208 16 0
+
+fl=(2)
+fn=(10)
+202 134 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+208 16 0
+
+fl=(1)
+fn=(9)
+208 14 0
+
+fl=(2)
+fn=(10)
+202 113 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+208 14 0
+
+fl=(1)
+fn=(9)
+208 13 0
+
+fl=(2)
+fn=(10)
+202 107 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+208 13 0
+
+fl=(2)
+fn=(11) checkParams
+229 87 0
+
+fl=(1)
+fn=(12) php::php_ini_loaded_file
+300 51 0
+
+fl=(1)
+fn=(13) php::ini_get
+307 46 0
+
+fl=(1)
+fn=(2)
+316 63 0
+
+fl=(1)
+fn=(14) php::function_exists
+329 41 0
+
+fl=(1)
+fn=(2)
+336 50 0
+
+fl=(1)
+fn=(2)
+343 36 0
+
+fl=(1)
+fn=(2)
+350 19 0
+
+fl=(1)
+fn=(2)
+357 28 0
+
+fl=(1)
+fn=(13)
+364 57 0
+
+fl=(1)
+fn=(2)
+373 32 0
+
+fl=(1)
+fn=(15) php::version_compare
+383 145 0
+
+fl=(1)
+fn=(15)
+389 50 0
+
+fl=(1)
+fn=(2)
+396 38 0
+
+fl=(1)
+fn=(2)
+403 13 0
+
+fl=(1)
+fn=(2)
+415 17 0
+
+fl=(1)
+fn=(13)
+415 19 0
+
+fl=(1)
+fn=(2)
+440 26 0
+
+fl=(1)
+fn=(2)
+458 15 0
+
+fl=(1)
+fn=(16) php::ob_start
+465 213 16640
+
+fl=(1)
+fn=(17) php::phpinfo
+466 10292 0
+
+fl=(1)
+fn=(18) php::ob_get_clean
+467 63 0
+
+fl=(1)
+fn=(19) php::preg_match
+468 14041 2264
+
+fl=(1)
+fn=(9)
+471 176 0
+
+fl=(1)
+fn=(9)
+479 142 0
+
+fl=(2)
+fn=(20) getPlatformIssues
+295 3670 0
+cfl=(1)
+cfn=(12)
+calls=1 0 0
+300 51 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+307 46 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+316 63 0
+cfl=(1)
+cfn=(14)
+calls=1 0 0
+329 41 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+336 50 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+343 36 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+350 19 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+357 28 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+364 57 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+373 32 0
+cfl=(1)
+cfn=(15)
+calls=1 0 0
+383 145 0
+cfl=(1)
+cfn=(15)
+calls=1 0 0
+389 50 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+396 38 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+403 13 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+415 17 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+415 19 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+440 26 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+458 15 0
+cfl=(1)
+cfn=(16)
+calls=1 0 0
+465 213 16640
+cfl=(1)
+cfn=(17)
+calls=1 0 0
+466 10292 0
+cfl=(1)
+cfn=(18)
+calls=1 0 0
+467 63 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+468 14041 2264
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+471 176 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+479 142 0
+
+fl=(1)
+fn=(21) php::printf
+561 10520 32
+
+fl=(2)
+fn=(22) out
+543 660 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+561 10520 32
+
+fl=(2)
+fn=(23) checkPlatform
+262 1205 0
+cfl=(2)
+cfn=(20)
+calls=1 0 0
+264 29343 480
+cfl=(2)
+cfn=(22)
+calls=1 0 0
+281 11179 32
+
+fl=(2)
+fn=(24) Installer->__construct
+681 233 80
+
+fl=(1)
+fn=(25) php::getcwd
+746 406 40
+
+fl=(1)
+fn=(26) php::is_writeable
+748 811 0
+
+fl=(1)
+fn=(27) php::basename
+753 425 40
+
+fl=(2)
+fn=(28) Installer->initTargets
+743 808 88
+cfl=(1)
+cfn=(25)
+calls=1 0 0
+746 406 40
+cfl=(1)
+cfn=(26)
+calls=1 0 0
+748 811 0
+cfl=(1)
+cfn=(27)
+calls=1 0 0
+753 425 40
+
+fl=(1)
+fn=(29) php::openssl_get_md_methods
+769 2807 2112
+
+fl=(1)
+fn=(30) php::strtolower
+769 52 0
+
+fl=(1)
+fn=(30)
+769 19 0
+
+fl=(1)
+fn=(30)
+769 25 0
+
+fl=(1)
+fn=(30)
+769 11 0
+
+fl=(1)
+fn=(30)
+769 14 0
+
+fl=(1)
+fn=(30)
+769 13 0
+
+fl=(1)
+fn=(30)
+769 11 0
+
+fl=(1)
+fn=(30)
+769 12 0
+
+fl=(1)
+fn=(30)
+769 10 0
+
+fl=(1)
+fn=(30)
+769 12 0
+
+fl=(1)
+fn=(30)
+769 11 0
+
+fl=(1)
+fn=(30)
+769 10 0
+
+fl=(1)
+fn=(30)
+769 10 0
+
+fl=(1)
+fn=(30)
+769 11 0
+
+fl=(1)
+fn=(30)
+769 11 0
+
+fl=(1)
+fn=(30)
+769 14 0
+
+fl=(1)
+fn=(30)
+769 20 0
+
+fl=(1)
+fn=(30)
+769 11 0
+
+fl=(1)
+fn=(30)
+769 11 0
+
+fl=(1)
+fn=(30)
+769 11 0
+
+fl=(1)
+fn=(30)
+769 13 0
+
+fl=(1)
+fn=(31) php::array_map
+769 3462 1336
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+769 52 0
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+769 19 0
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+769 25 0
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+769 11 0
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+769 14 0
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+769 13 0
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+769 11 0
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+769 12 0
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+769 10 0
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+769 12 0
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+769 11 0
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+769 10 0
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+769 10 0
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+769 11 0
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+769 11 0
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+769 14 0
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+769 20 0
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+769 11 0
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+769 11 0
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+769 11 0
+cfl=(1)
+cfn=(30)
+calls=1 0 0
+769 13 0
+
+fl=(1)
+fn=(5)
+769 62 0
+
+fl=(1)
+fn=(6)
+571 62 0
+
+fl=(1)
+fn=(6)
+616 80 32
+
+fl=(1)
+fn=(32) php::strtr
+622 76 0
+
+fl=(1)
+fn=(33) php::rtrim
+622 30 0
+
+fl=(2)
+fn=(34) getUserDir
+613 412 0
+cfl=(1)
+cfn=(6)
+calls=1 0 0
+616 80 32
+cfl=(1)
+cfn=(32)
+calls=1 0 0
+622 76 0
+cfl=(1)
+cfn=(33)
+calls=1 0 0
+622 30 0
+
+fl=(1)
+fn=(35) php::array_keys
+630 77 1336
+
+fl=(1)
+fn=(9)
+631 24 0
+
+fl=(1)
+fn=(9)
+631 10 0
+
+fl=(1)
+fn=(9)
+631 10 0
+
+fl=(1)
+fn=(9)
+631 10 0
+
+fl=(1)
+fn=(9)
+631 11 0
+
+fl=(1)
+fn=(9)
+631 10 0
+
+fl=(1)
+fn=(9)
+631 10 0
+
+fl=(1)
+fn=(9)
+631 10 0
+
+fl=(1)
+fn=(9)
+631 10 0
+
+fl=(1)
+fn=(9)
+631 10 0
+
+fl=(1)
+fn=(9)
+631 10 0
+
+fl=(1)
+fn=(9)
+631 11 0
+
+fl=(1)
+fn=(9)
+631 12 0
+
+fl=(1)
+fn=(9)
+631 10 0
+
+fl=(1)
+fn=(9)
+631 10 0
+
+fl=(1)
+fn=(9)
+631 10 0
+
+fl=(1)
+fn=(9)
+631 10 0
+
+fl=(1)
+fn=(9)
+631 10 0
+
+fl=(1)
+fn=(9)
+631 10 0
+
+fl=(1)
+fn=(9)
+631 10 0
+
+fl=(1)
+fn=(9)
+631 10 0
+
+fl=(1)
+fn=(9)
+631 10 0
+
+fl=(1)
+fn=(36) php::is_dir
+636 3840 0
+
+fl=(2)
+fn=(37) useXdg
+628 1737 0
+cfl=(1)
+cfn=(35)
+calls=1 0 0
+630 77 1336
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+631 24 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+631 10 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+631 10 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+631 10 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+631 11 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+631 10 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+631 10 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+631 10 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+631 10 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+631 10 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+631 10 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+631 11 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+631 12 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+631 10 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+631 10 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+631 10 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+631 10 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+631 10 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+631 10 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+631 10 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+631 10 0
+cfl=(1)
+cfn=(9)
+calls=1 0 0
+631 10 0
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+636 3840 0
+
+fl=(1)
+fn=(36)
+598 4419 16
+
+fl=(2)
+fn=(38) getHomeDir
+569 1396 8
+cfl=(1)
+cfn=(6)
+calls=1 0 0
+571 62 0
+cfl=(2)
+cfn=(34)
+calls=1 0 0
+576 597 32
+cfl=(2)
+cfn=(37)
+calls=1 0 0
+584 5889 0
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+598 4419 16
+
+fl=(1)
+fn=(36)
+796 43 0
+
+fl=(2)
+fn=(39) Installer->getComposerHome
+792 470 0
+cfl=(2)
+cfn=(38)
+calls=1 0 0
+794 12363 56
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+796 43 0
+
+fl=(2)
+fn=(40) Installer::getPKDev
+1202 18 0
+
+fl=(1)
+fn=(41) php::set_error_handler
+1270 212 320
+
+fl=(2)
+fn=(42) ErrorHandler->start
+1267 307 376
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+1270 212 320
+
+fl=(1)
+fn=(43) php::file_exists
+827 864 0
+
+fl=(1)
+fn=(44) php::file_put_contents
+828 567739 432
+
+fl=(1)
+fn=(45) php::chmod
+829 1423 0
+
+fl=(1)
+fn=(46) php::restore_error_handler
+1284 149 0
+
+fl=(2)
+fn=(47) ErrorHandler->stop
+1281 6854 0
+cfl=(1)
+cfn=(46)
+calls=1 0 0
+1284 149 0
+
+fl=(2)
+fn=(48) Installer->installKey
+822 3004 56
+cfl=(2)
+cfn=(42)
+calls=1 0 0
+824 519 696
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+827 864 0
+cfl=(1)
+cfn=(44)
+calls=1 0 0
+828 567739 432
+cfl=(1)
+cfn=(45)
+calls=1 0 0
+829 1423 0
+cfl=(2)
+cfn=(47)
+calls=1 0 0
+831 7003 0
+
+fl=(2)
+fn=(49) Installer::getPKTags
+1222 26 0
+
+fl=(1)
+fn=(41)
+1270 415 0
+
+fl=(2)
+fn=(42)
+1267 258 376
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+1270 415 0
+
+fl=(1)
+fn=(43)
+827 1793 0
+
+fl=(1)
+fn=(44)
+828 213833 0
+
+fl=(1)
+fn=(45)
+829 1393 0
+
+fl=(1)
+fn=(46)
+1284 145 0
+
+fl=(2)
+fn=(47)
+1281 221 0
+cfl=(1)
+cfn=(46)
+calls=1 0 0
+1284 145 0
+
+fl=(2)
+fn=(48)
+822 10136 56
+cfl=(2)
+cfn=(42)
+calls=1 0 0
+824 673 376
+cfl=(1)
+cfn=(43)
+calls=1 0 0
+827 1793 0
+cfl=(1)
+cfn=(44)
+calls=1 0 0
+828 213833 0
+cfl=(1)
+cfn=(45)
+calls=1 0 0
+829 1393 0
+cfl=(2)
+cfn=(47)
+calls=1 0 0
+831 366 0
+
+fl=(1)
+fn=(6)
+1627 243 0
+
+fl=(1)
+fn=(6)
+1634 23 0
+
+fl=(1)
+fn=(13)
+1639 169 0
+
+fl=(1)
+fn=(13)
+1644 29 0
+
+fl=(1)
+fn=(50) php::is_readable
+1667 4444 0
+
+fl=(1)
+fn=(50)
+1667 543 0
+
+fl=(1)
+fn=(51) php::file_get_contents
+1667 9967 200704
+
+fl=(1)
+fn=(52) php::openssl_x509_parse
+655 44168 8880
+
+fl=(2)
+fn=(53) validateCaFile
+643 1217 0
+cfl=(1)
+cfn=(52)
+calls=1 0 0
+655 44168 8880
+
+fl=(2)
+fn=(54) HttpClient::getSystemCaRootBundlePath
+1619 2849 0
+cfl=(1)
+cfn=(6)
+calls=1 0 0
+1627 243 0
+cfl=(1)
+cfn=(6)
+calls=1 0 0
+1634 23 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+1639 169 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+1644 29 0
+cfl=(1)
+cfn=(50)
+calls=1 0 0
+1667 4444 0
+cfl=(1)
+cfn=(50)
+calls=1 0 0
+1667 543 0
+cfl=(1)
+cfn=(51)
+calls=1 0 0
+1667 9967 200704
+cfl=(2)
+cfn=(53)
+calls=1 0 0
+1667 45385 0
+
+fl=(2)
+fn=(55) Installer->initTls
+763 4619 0
+cfl=(1)
+cfn=(29)
+calls=1 0 0
+769 2807 2112
+cfl=(1)
+cfn=(31)
+calls=1 0 0
+769 3775 1336
+cfl=(1)
+cfn=(5)
+calls=1 0 0
+769 62 0
+cfl=(2)
+cfn=(39)
+calls=1 0 0
+774 12876 56
+cfl=(2)
+cfn=(40)
+calls=1 0 0
+777 18 0
+cfl=(2)
+cfn=(48)
+calls=1 0 0
+777 580551 808
+cfl=(2)
+cfn=(49)
+calls=1 0 0
+778 26 0
+cfl=(2)
+cfn=(48)
+calls=1 0 0
+778 228193 56
+cfl=(2)
+cfn=(54)
+calls=1 0 0
+781 63653 0
+
+fl=(1)
+fn=(56) php::implode
+1407 284 768
+
+fl=(2)
+fn=(54)
+1619 85 0
+
+fl=(1)
+fn=(36)
+1472 1230 24
+
+fl=(1)
+fn=(15)
+1483 212 0
+
+fl=(2)
+fn=(57) HttpClient->getTlsStreamContextDefaults
+1404 1346 752
+cfl=(1)
+cfn=(56)
+calls=1 0 0
+1407 284 768
+cfl=(2)
+cfn=(54)
+calls=1 0 0
+1470 85 0
+cfl=(1)
+cfn=(36)
+calls=1 0 0
+1472 1230 24
+cfl=(1)
+cfn=(15)
+calls=1 0 0
+1483 212 0
+
+fl=(1)
+fn=(58) php::array_replace_recursive
+1356 130 376
+
+fl=(2)
+fn=(59) HttpClient->__construct
+1346 1213 0
+cfl=(2)
+cfn=(57)
+calls=1 0 0
+1355 3156 1544
+cfl=(1)
+cfn=(58)
+calls=1 0 0
+1356 130 376
+
+fl=(1)
+fn=(21)
+561 5545 0
+
+fl=(2)
+fn=(22)
+543 594 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+561 5545 0
+
+fl=(1)
+fn=(41)
+1270 361 0
+
+fl=(2)
+fn=(42)
+1267 385 376
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+1270 361 0
+
+fl=(1)
+fn=(19)
+1514 6234 32
+
+fl=(1)
+fn=(2)
+1577 164 0
+
+fl=(1)
+fn=(60) php::stream_context_create
+1584 420 1592
+
+fl=(2)
+fn=(61) HttpClient->getMergedStreamContext
+1499 2035 112
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1514 6234 32
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1577 164 0
+cfl=(1)
+cfn=(60)
+calls=1 0 0
+1584 420 1592
+
+fl=(2)
+fn=(62) HttpClient->getStreamContext
+1393 461 0
+cfl=(2)
+cfn=(61)
+calls=1 0 0
+1401 8853 1736
+
+fl=(1)
+fn=(51)
+1363 16537308 1824
+
+fl=(1)
+fn=(2)
+1365 320 0
+
+fl=(1)
+fn=(19)
+1368 36868 32
+
+fl=(1)
+fn=(19)
+1371 1326 32
+
+fl=(1)
+fn=(19)
+1368 39 0
+
+fl=(1)
+fn=(19)
+1371 19 0
+
+fl=(1)
+fn=(19)
+1368 24 0
+
+fl=(1)
+fn=(19)
+1371 15 0
+
+fl=(1)
+fn=(19)
+1368 20 0
+
+fl=(1)
+fn=(19)
+1371 15 0
+
+fl=(1)
+fn=(19)
+1368 16 0
+
+fl=(1)
+fn=(19)
+1371 15 0
+
+fl=(1)
+fn=(19)
+1368 19 0
+
+fl=(1)
+fn=(19)
+1371 14 0
+
+fl=(1)
+fn=(19)
+1368 16 0
+
+fl=(1)
+fn=(19)
+1371 14 0
+
+fl=(1)
+fn=(19)
+1368 15 0
+
+fl=(1)
+fn=(19)
+1371 14 0
+
+fl=(2)
+fn=(63) HttpClient->get
+1360 4279 0
+cfl=(2)
+cfn=(62)
+calls=1 0 0
+1362 9314 1736
+cfl=(1)
+cfn=(51)
+calls=1 0 0
+1363 16537308 1824
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1365 320 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1368 36868 32
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1371 1326 32
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1368 39 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1371 19 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1368 24 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1371 15 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1368 20 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1371 15 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1368 16 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1371 15 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1368 19 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1371 14 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1368 16 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1371 14 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1368 15 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1371 14 0
+
+fl=(1)
+fn=(64) php::json_decode
+946 1978 8400
+
+fl=(2)
+fn=(65) Installer->downloadVersionData
+936 1608 0
+cfl=(2)
+cfn=(63)
+calls=1 0 0
+941 16589667 1120
+cfl=(1)
+cfn=(64)
+calls=1 0 0
+946 1978 8400
+
+fl=(2)
+fn=(66) Installer->parseVersionData
+1026 476 80
+
+fl=(1)
+fn=(46)
+1284 84 0
+
+fl=(2)
+fn=(47)
+1281 245 0
+cfl=(1)
+cfn=(46)
+calls=1 0 0
+1284 84 0
+
+fl=(2)
+fn=(67) Installer->getVersion
+907 5230 0
+cfl=(2)
+cfn=(42)
+calls=1 0 0
+918 746 376
+cfl=(2)
+cfn=(65)
+calls=1 0 0
+920 16593254 8496
+cfl=(2)
+cfn=(66)
+calls=1 0 0
+921 476 80
+cfl=(2)
+cfn=(47)
+calls=1 0 0
+924 328 0
+
+fl=(1)
+fn=(41)
+1270 262 0
+
+fl=(2)
+fn=(42)
+1267 240 376
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+1270 262 0
+
+fl=(1)
+fn=(68) php::fopen
+969 318107 480
+
+fl=(1)
+fn=(19)
+1514 211 0
+
+fl=(1)
+fn=(2)
+1577 174 0
+
+fl=(1)
+fn=(60)
+1584 368 1912
+
+fl=(2)
+fn=(61)
+1499 1642 112
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1514 211 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1577 174 0
+cfl=(1)
+cfn=(60)
+calls=1 0 0
+1584 368 1912
+
+fl=(2)
+fn=(62)
+1393 609 0
+cfl=(2)
+cfn=(61)
+calls=1 0 0
+1401 2394 2024
+
+fl=(1)
+fn=(51)
+1363 17030462 1576
+
+fl=(1)
+fn=(2)
+1365 312 0
+
+fl=(1)
+fn=(19)
+1368 271 0
+
+fl=(1)
+fn=(19)
+1371 58 0
+
+fl=(1)
+fn=(19)
+1368 16 0
+
+fl=(1)
+fn=(19)
+1371 19 0
+
+fl=(1)
+fn=(19)
+1368 20 0
+
+fl=(1)
+fn=(19)
+1371 15 0
+
+fl=(1)
+fn=(19)
+1368 19 0
+
+fl=(1)
+fn=(19)
+1371 15 0
+
+fl=(1)
+fn=(19)
+1368 16 0
+
+fl=(1)
+fn=(19)
+1371 15 0
+
+fl=(1)
+fn=(19)
+1368 18 0
+
+fl=(1)
+fn=(19)
+1371 15 0
+
+fl=(1)
+fn=(19)
+1368 16 0
+
+fl=(1)
+fn=(19)
+1371 15 0
+
+fl=(1)
+fn=(19)
+1368 16 0
+
+fl=(1)
+fn=(19)
+1371 15 0
+
+fl=(2)
+fn=(63)
+1360 3546 0
+cfl=(2)
+cfn=(62)
+calls=1 0 0
+1362 3003 2024
+cfl=(1)
+cfn=(51)
+calls=1 0 0
+1363 17030462 1576
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1365 312 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1368 271 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1371 58 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1368 16 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1371 19 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1368 20 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1371 15 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1368 19 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1371 15 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1368 16 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1371 15 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1368 18 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1371 15 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1368 16 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1371 15 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1368 16 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1371 15 0
+
+fl=(1)
+fn=(64)
+1062 826 1176
+
+fl=(1)
+fn=(69) php::base64_decode
+1063 187 768
+
+fl=(2)
+fn=(70) Installer->getSignature
+1056 1835 0
+cfl=(2)
+cfn=(63)
+calls=1 0 0
+1059 17037881 1088
+cfl=(1)
+cfn=(64)
+calls=1 0 0
+1062 826 1176
+cfl=(1)
+cfn=(69)
+calls=1 0 0
+1063 187 768
+
+fl=(1)
+fn=(19)
+1514 61 0
+
+fl=(1)
+fn=(2)
+1577 36 0
+
+fl=(1)
+fn=(60)
+1584 413 1592
+
+fl=(2)
+fn=(61)
+1499 1272 112
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1514 61 0
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1577 36 0
+cfl=(1)
+cfn=(60)
+calls=1 0 0
+1584 413 1592
+
+fl=(2)
+fn=(62)
+1393 407 0
+cfl=(2)
+cfn=(61)
+calls=1 0 0
+1401 1781 1704
+
+fl=(1)
+fn=(51)
+1363 82243994 742184
+
+fl=(1)
+fn=(2)
+1365 355 0
+
+fl=(1)
+fn=(19)
+1368 261 0
+
+fl=(1)
+fn=(19)
+1371 69 0
+
+fl=(1)
+fn=(19)
+1368 17 0
+
+fl=(1)
+fn=(19)
+1371 18 0
+
+fl=(1)
+fn=(19)
+1368 23 0
+
+fl=(1)
+fn=(19)
+1371 15 0
+
+fl=(1)
+fn=(19)
+1368 18 0
+
+fl=(1)
+fn=(19)
+1371 14 0
+
+fl=(1)
+fn=(19)
+1368 19 0
+
+fl=(1)
+fn=(19)
+1371 14 0
+
+fl=(1)
+fn=(19)
+1368 16 0
+
+fl=(1)
+fn=(19)
+1371 15 0
+
+fl=(1)
+fn=(19)
+1368 19 0
+
+fl=(1)
+fn=(19)
+1371 15 0
+
+fl=(1)
+fn=(19)
+1368 30 0
+
+fl=(1)
+fn=(15)
+1377 456 0
+
+fl=(1)
+fn=(71) php::zlib_decode
+1378 1666179 3063832
+
+fl=(2)
+fn=(63)
+1360 5574 0
+cfl=(2)
+cfn=(62)
+calls=1 0 0
+1362 2188 1704
+cfl=(1)
+cfn=(51)
+calls=1 0 0
+1363 82243994 742184
+cfl=(1)
+cfn=(2)
+calls=1 0 0
+1365 355 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1368 261 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1371 69 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1368 17 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1371 18 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1368 23 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1371 15 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1368 18 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1371 14 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1368 19 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1371 14 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1368 16 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1371 15 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1368 19 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1371 15 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1368 30 0
+cfl=(1)
+cfn=(15)
+calls=1 0 0
+1377 456 0
+cfl=(1)
+cfn=(71)
+calls=1 0 0
+1378 1666179 3063832
+
+fl=(1)
+fn=(72) php::fwrite
+975 193589 0
+
+fl=(1)
+fn=(73) php::fclose
+980 888 0
+
+fl=(1)
+fn=(46)
+1284 112 0
+
+fl=(2)
+fn=(47)
+1281 314 0
+cfl=(1)
+cfn=(46)
+calls=1 0 0
+1284 112 0
+
+fl=(2)
+fn=(74) Installer->downloadToTmp
+962 15964 0
+cfl=(2)
+cfn=(42)
+calls=1 0 0
+967 503 376
+cfl=(1)
+cfn=(68)
+calls=1 0 0
+969 318107 480
+cfl=(2)
+cfn=(70)
+calls=1 0 0
+972 17040729 1088
+cfl=(2)
+cfn=(63)
+calls=1 0 0
+975 83919309 3063832
+cfl=(1)
+cfn=(72)
+calls=1 0 0
+975 193589 0
+cfl=(1)
+cfn=(73)
+calls=1 0 0
+980 888 0
+cfl=(2)
+cfn=(47)
+calls=1 0 0
+982 426 0
+
+fl=(1)
+fn=(13)
+1112 157 0
+
+fl=(2)
+fn=(75) Installer->validatePhar
+1110 231 0
+cfl=(1)
+cfn=(13)
+calls=1 0 0
+1112 157 0
+
+fl=(1)
+fn=(19)
+1083 30955 32
+
+fl=(1)
+fn=(76) php::openssl_pkey_get_public
+1084 11360 24
+
+fl=(1)
+fn=(51)
+1087 152210 3063832
+
+fl=(1)
+fn=(77) php::openssl_verify
+1090 654995 0
+
+fl=(1)
+fn=(78) php::openssl_free_key
+1095 875 0
+
+fl=(2)
+fn=(79) Installer->verifySignature
+1080 10103 0
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+1083 30955 32
+cfl=(1)
+cfn=(76)
+calls=1 0 0
+1084 11360 24
+cfl=(1)
+cfn=(51)
+calls=1 0 0
+1087 152210 3063832
+cfl=(1)
+cfn=(77)
+calls=1 0 0
+1090 654995 0
+cfl=(1)
+cfn=(78)
+calls=1 0 0
+1095 875 0
+
+fl=(1)
+fn=(41)
+1270 276 0
+
+fl=(2)
+fn=(42)
+1267 359 376
+cfl=(1)
+cfn=(41)
+calls=1 0 0
+1270 276 0
+
+fl=(1)
+fn=(80) php::rename
+1008 6571 0
+
+fl=(1)
+fn=(45)
+1011 746 0
+
+fl=(1)
+fn=(46)
+1284 76 0
+
+fl=(2)
+fn=(47)
+1281 191 0
+cfl=(1)
+cfn=(46)
+calls=1 0 0
+1284 76 0
+
+fl=(2)
+fn=(81) Installer->verifyAndSave
+995 2476 0
+cfl=(2)
+cfn=(75)
+calls=1 0 0
+999 389 0
+cfl=(2)
+cfn=(79)
+calls=1 0 0
+1002 860498 56
+cfl=(2)
+cfn=(42)
+calls=1 0 0
+1006 635 376
+cfl=(1)
+cfn=(80)
+calls=1 0 0
+1008 6571 0
+cfl=(1)
+cfn=(45)
+calls=1 0 0
+1011 746 0
+cfl=(2)
+cfn=(47)
+calls=1 0 0
+1012 267 0
+
+fl=(1)
+fn=(21)
+561 5412 0
+
+fl=(2)
+fn=(22)
+543 590 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+561 5412 0
+
+fl=(1)
+fn=(21)
+561 294 0
+
+fl=(2)
+fn=(22)
+543 279 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+561 294 0
+
+fl=(1)
+fn=(21)
+561 139 0
+
+fl=(2)
+fn=(22)
+543 189 0
+cfl=(1)
+cfn=(21)
+calls=1 0 0
+561 139 0
+
+fl=(2)
+fn=(82) Installer->install
+852 3286 0
+cfl=(2)
+cfn=(22)
+calls=1 0 0
+861 6139 0
+cfl=(2)
+cfn=(67)
+calls=1 0 0
+866 16600034 208
+cfl=(2)
+cfn=(74)
+calls=1 0 0
+871 101489514 1088
+cfl=(2)
+cfn=(81)
+calls=1 0 0
+876 871581 16
+cfl=(2)
+cfn=(22)
+calls=1 0 0
+887 6002 0
+cfl=(2)
+cfn=(22)
+calls=1 0 0
+888 573 0
+cfl=(2)
+cfn=(22)
+calls=1 0 0
+889 328 0
+
+fl=(1)
+fn=(19)
+711 8661 32
+
+fl=(2)
+fn=(83) Installer->cleanUp
+1152 113 0
+
+fl=(2)
+fn=(84) Installer->run
+702 3278 80
+cfl=(2)
+cfn=(28)
+calls=1 0 0
+705 2450 168
+cfl=(2)
+cfn=(55)
+calls=1 0 0
+706 896580 1256
+cfl=(2)
+cfn=(59)
+calls=1 0 0
+707 4499 1544
+cfl=(2)
+cfn=(82)
+calls=1 0 0
+708 118977456 432
+cfl=(1)
+cfn=(19)
+calls=1 0 0
+711 8661 32
+cfl=(2)
+cfn=(83)
+calls=1 0 0
+724 113 0
+
+fl=(2)
+fn=(85) showWarnings
+518 42 0
+
+fl=(2)
+fn=(86) showSecurityWarning
+532 33 0
+
+fl=(2)
+fn=(87) process
+48 3857 288
+cfl=(2)
+cfn=(8)
+calls=1 0 0
+51 1050 24
+cfl=(1)
+cfn=(5)
+calls=1 0 0
+53 15 0
+cfl=(1)
+cfn=(5)
+calls=1 0 0
+53 9 0
+cfl=(1)
+cfn=(5)
+calls=1 0 0
+59 10 0
+cfl=(1)
+cfn=(5)
+calls=1 0 0
+60 15 0
+cfl=(1)
+cfn=(5)
+calls=1 0 0
+61 9 0
+cfl=(1)
+cfn=(5)
+calls=1 0 0
+63 11 0
+cfl=(1)
+cfn=(5)
+calls=1 0 0
+65 9 0
+cfl=(1)
+cfn=(5)
+calls=1 0 0
+67 9 0
+cfl=(1)
+cfn=(5)
+calls=1 0 0
+69 9 0
+cfl=(1)
+cfn=(5)
+calls=1 0 0
+71 9 0
+cfl=(1)
+cfn=(5)
+calls=1 0 0
+74 9 0
+cfl=(2)
+cfn=(10)
+calls=1 0 0
+75 347 0
+cfl=(2)
+cfn=(10)
+calls=1 0 0
+76 150 0
+cfl=(2)
+cfn=(10)
+calls=1 0 0
+77 127 0
+cfl=(2)
+cfn=(10)
+calls=1 0 0
+78 120 0
+cfl=(2)
+cfn=(11)
+calls=1 0 0
+80 87 0
+cfl=(2)
+cfn=(23)
+calls=1 0 0
+84 41728 512
+cfl=(2)
+cfn=(24)
+calls=1 0 0
+100 233 80
+cfl=(2)
+cfn=(84)
+calls=1 0 0
+101 119893035 3512
+cfl=(2)
+cfn=(85)
+calls=1 0 0
+102 42 0
+cfl=(2)
+cfn=(86)
+calls=1 0 0
+103 33 0
+
+fl=(2)
+fn=(88) {main}
+1 2345 0
+cfl=(2)
+cfn=(4)
+calls=1 0 0
+13 3787 400
+cfl=(2)
+cfn=(87)
+calls=1 0 0
+14 119940923 4416
+
+summary: 119949887 7464128
+
