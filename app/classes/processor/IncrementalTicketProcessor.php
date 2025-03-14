@@ -27,7 +27,6 @@ class IncrementalTicketProcessor implements ProcessorInterface
             $data = $this->client->fetchIncrementalTickets();
         }
 
-
         $usersMapById = ArrayHelper::arrayMapByField($data['users']);
         $organizationsMapById = ArrayHelper::arrayMapByField($data['organizations']);
         $groupsMapById = ArrayHelper::arrayMapByField($data['groups']);
